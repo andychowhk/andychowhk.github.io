@@ -4,9 +4,26 @@
 
 <head>
   <title>My Homepage</title>
+  <link rel="stylesheet" href="style.css">
   <style>
     table {
       width: 400px;
+      border: green 2px solid;
+      margin: auto;
+    }
+
+    caption {
+      font-weight: bold;
+      color: blue;
+      font-size: 1.5em;
+      margin: 10px;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
     }
   </style>
 </head>
@@ -25,19 +42,19 @@
       <td>Halo</td>
     </tr>
     <tr>
-      <td>B2367</td>
+      <td rowspan="2">B2367</td>
       <td>Li Sheung Sheung</td>
       <td>Moe</td>
     </tr>
     <tr>
-      <td>D9431</td>
+      <!-- <td>D9431</td> -->
       <td>Ma Mei Yan</td>
       <td>Qrc</td>
     </tr>
     <tr>
       <td>A4347</td>
-      <td>Wong Man Shan</td>
-      <td>OMG</td>
+      <td colspan="2">Wong Man Shan</td>
+      <!-- <td>OMG</td> -->
     </tr>
   </table>
 </body>
